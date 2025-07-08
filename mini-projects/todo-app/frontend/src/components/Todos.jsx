@@ -1,4 +1,4 @@
-export function Todos({ todos: todosData }) { // Rename prop to avoid confusion
+export function Todos({ todos: todosData }){
     console.log("todosData", todosData);
 
     // Check if `todosData` is an object with a `todos` array
